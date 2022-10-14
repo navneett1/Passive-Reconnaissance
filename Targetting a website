@@ -1,0 +1,37 @@
+This is just a rough path for recon, just to get started, there are better methodologies than this but keeping in touch with roots is also good...
+Talking about Recon, it starts with the website itself. There may be a few vulnerabilities on the surface of the website.
+
+* Let's say we are targetting "www.url.com" as our target.
+
+> Our first approach towards the target is to visit its official website and its publically available sub-domains.
+
+> Finding the employees' details, location details, addresses, phone numbers etc.
+
+> Looking for:
+              1. sitemap.html (user index)
+              2. sitemap.xml(Google index)
+              3. robots.txt(disallow or allow content for search engines)
+              4. readme.html/txt
+              5. liscence.txt
+              
+> Next step is to generate a sitemap online using:
+              1. sitemapgenerator xml-sitemaps.com
+              2. urlextractor
+              3. SEO-Spider
+              
+> Mirroring the website: 
+              1. In Linux
+                  # wget -m "www.url.com"
+              2. In windows, by using Httrack 
+
+> Wayback Machine
+		Checking for previous versions of the website, we can find some vulnerabilities that may persist even now.
+    
+    1. Visit- https://archive.org
+    2. Github tool- (https://github.com/tomnomnom/waybackurls) 
+          # cat domains.txt | waybackurls > urls 
+       Install Golang in Linux- 
+                              # apt install golang
+                              # go install github.com/tomnomnom/waybackurls@latest
+    
+		
