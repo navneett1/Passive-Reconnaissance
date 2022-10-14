@@ -1,7 +1,7 @@
 This is just a rough path for recon, just to get started, there are better methodologies than this but keeping in touch with roots is also good...
 Talking about Recon, it starts with the website itself. There may be a few vulnerabilities on the surface of the website.
 
-* Let's say we are targetting "www.url.com" as our target.
+* Let's say we are taking "www.url.com" as our target.
 
 > Our first approach towards the target is to visit its official website and its publically available sub-domains.
 
