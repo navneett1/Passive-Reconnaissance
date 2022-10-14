@@ -7,7 +7,7 @@ Talking about Recon, it starts with the website itself. There may be a few vulne
 
 > Finding the employees' details, location details, addresses, phone numbers etc.
 
-> Looking for:
+> Looking for following pages in the website if available:
               1. sitemap.html (user index)
               2. sitemap.xml(Google index)
               3. robots.txt(disallow or allow content for search engines)
