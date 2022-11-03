@@ -32,6 +32,6 @@ Talking about Recon, it starts with the website itself. There may be a few vulne
           # cat domains.txt | waybackurls > urls 
        Install Golang in Linux- 
                               # apt install golang
-                              # go install github.com/tomnomnom/waybackurls@latest
+                              # ***go install github.com/tomnomnom/waybackurls@latest***
     
 		
